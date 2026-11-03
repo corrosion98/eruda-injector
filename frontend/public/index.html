@@ -44,7 +44,7 @@ footer{display:flex;justify-content:space-between;gap:10px;padding:9px 16px;bord
 <footer><span>ERUDA VIEWER · <span id="year"></span></span><span>Isolated preview session</span></footer>
 <script>
 (() => {
-  const proxyBase = "__PROXY_BASE__".replace(/\/$/,"");
+  const proxyBase = "https://eruda-injector.onrender.com/".replace(/\/$/,"");
   const form=document.querySelector("#nav"), input=document.querySelector("#url"), frame=document.querySelector("#preview");
   const status=document.querySelector("#status"), empty=document.querySelector("#empty"), load=document.querySelector("#load");
   const stack=[]; let position=-1;
